@@ -5,7 +5,7 @@ Bem-vindo ao Anotation, aqui você pode:
 - 📝 Criar, Remover, Visualizar e Salvar suas tarefas com Facilidade em um Design intuitivo
 - ✅ Suas tarefas são organizadas de acordo com a data de Lembrete que você definir
 
-- Segue uma lista com as tecnologias utilizadas
+Segue uma lista com as tecnologias utilizadas
 
 - 💚 Nuxt.js (Framework Vue.js)
 - 🔵 TypeScript
