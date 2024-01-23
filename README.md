@@ -72,7 +72,6 @@ Bem-vindo ao Anotation, uma Aplicação Full Stack cujo objetivo é a Criação,
 - depois instale as dependências com o seu gerenciador de pacotes
 
 ```bash
-
     npm installl
 
     #ou
@@ -91,7 +90,6 @@ Bem-vindo ao Anotation, uma Aplicação Full Stack cujo objetivo é a Criação,
 - e instale as dependências
 
 ```bash
-
     npm installl
 
     #ou
@@ -111,14 +109,15 @@ Bem-vindo ao Anotation, uma Aplicação Full Stack cujo objetivo é a Criação,
     SECRET_KEY=CHAVE_SECRETA
 ```
 
-- Após isso, você deverá criar um banco de dados na sua máquina. O nome desse banco deverá ser informado na variável DATABASE_URL, no lugar de 'NOME_DO_BANCO_DE_DADOS'
+- Após isso, você deverá criar um banco de dados na sua máquina. O nome do seu Usuário, Senha e nome do Banco de Dados que você acabou de criar deverão ser informados na variável DATABASE_URL respectivamente no lugar de 'USUARIO', 'SENHA' e 'NOME_DO_BANCO_DE_DADOS',
 
-- Obs: Esse passo de criação do banco de dados é apenas uma precaução. Pois já fiz outros projetos com o Prisma ORM e, dependendo da etapa de configuração do PostgreSQL, pode aparecer um erro na hora de executar a próxima instrução:
+- Substitua na variável DATABASE_URL as parte escrita 'USUARIO', 'SENHA' e 'NOME_DO_BANCO_DE_DADOS' pelas suas próprias credencias após ter configurado o PostgreSQL
+  
+- Obs: Esse passo de criação do banco de dados é apenas uma precaução. Pois já fiz outros projetos com o Prisma ORM e, dependendo da etapa de configuração do PostgreSQL, pode aparecer um erro na hora de executar a próxima instrução
 
 - na mesma pasta, vá no terminal e rode o comando:
 
 ```bash
-
     npx prisma migrate dev
 
     #ou
@@ -128,21 +127,17 @@ Bem-vindo ao Anotation, uma Aplicação Full Stack cujo objetivo é a Criação,
     pnpm prisma migrate dev
 ```
 
-- Substitua na variável DATABASE_URL as parte escrita 'USUARIO', 'SENHA' e 'NOME_DO_BANCO_DE_DADOS' pelas suas próprias credencias após ter configurado o PostgreSQL
-
 ## Inicializando o Projeto 🚀
 
 - Entre na pasta 'client'
 
 ```bash
-
     cd client
 ```
 
 - Em seguida execute o comando de inicialização
 
 ```bash
-
     npm run dev
 
     #ou
@@ -155,14 +150,12 @@ Bem-vindo ao Anotation, uma Aplicação Full Stack cujo objetivo é a Criação,
 - Da mesma forma, vá na pasta 'server' e rode:
 
 ```bash
-
     cd server
 ```
 
 - Em seguida execute o comando de inicialização
 
 ```bash
-
     npm run start:dev
 
     #ou
@@ -175,7 +168,6 @@ Bem-vindo ao Anotation, uma Aplicação Full Stack cujo objetivo é a Criação,
 - Agora acesse a aba do navegador em:
 
 ```bash
-
     http://localhost:3000
 ```
 
