@@ -110,7 +110,7 @@ Segue uma lista com as tecnologias utilizadas
 - o .env deverá ficar assim:
 
 ```bash
-    PORT=3333
+    PORT=33333
     DATABASE_URL="postgresql://USUARIO:SENHA@localhost:5432/NOME_DO_BANCO_DE_DADOS?schema=public"
     SECRET_KEY=CHAVE_SECRETA
 ```
