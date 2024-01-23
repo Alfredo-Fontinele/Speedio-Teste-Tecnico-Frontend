@@ -1,6 +1,11 @@
 # Anotation 📋
 
-Bem-vindo ao Anotation, uma Aplicação Full Stack cujo objetivo é a Criação, Visualização e Remoção de Tarefas. Segue uma lista com as tecnologias utilizadas
+Bem-vindo ao Anotation, aqui você pode:
+
+- 📝 Criar, Remover, Visualizar e Salvar suas tarefas com Facilidade em um Design intuitivo
+- ✅ Suas tarefas são organizadas de acordo com a data de Lembrete que você definir
+
+- Segue uma lista com as tecnologias utilizadas
 
 - 💚 Nuxt.js (Framework Vue.js)
 - 🔵 TypeScript
@@ -8,11 +13,6 @@ Bem-vindo ao Anotation, uma Aplicação Full Stack cujo objetivo é a Criação,
 - 🐦 Nest.js (Framework Node.js)
 - 🐘 PostgreSQL
 - 🛠️ Prisma
-
-## Funcionalidades ✨
-
-- 📝 Crie, Remova, Visualize e Mantenha suas tarefas Salvas com Facilidade em um Design intuitivo
-- ✅ Suas tarefas são organizadas de acordo com a data de Lembrete que você definir
 
 ## Funcionalidades ✨
 
@@ -48,6 +48,12 @@ Bem-vindo ao Anotation, uma Aplicação Full Stack cujo objetivo é a Criação,
 
 <p align="center">
     <img src="./_imgs/image-insert-token.png" style="width: 600px; height: 350px; border-radius: 10px"/>
+</p>
+
+- ### 📝 Design Responsivo
+
+<p align="center">
+    <img src="./_imgs/image-mobile.png" style="width: 600px; height: 350px; border-radius: 10px"/>
 </p>
 
 ## Pré-requisitos 🎯
