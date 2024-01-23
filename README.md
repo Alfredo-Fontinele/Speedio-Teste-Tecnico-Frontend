@@ -53,7 +53,7 @@ Segue uma lista com as tecnologias utilizadas
 - ### 📝 Design Responsivo
 
 <p align="center">
-    <img src="./_imgs/image-mobile.png" style="width: 600px; height: 350px; border-radius: 10px"/>
+    <img src="./_imgs/image-mobile.png" style="width: 300px; height: 450px; border-radius: 10px"/>
 </p>
 
 ## Pré-requisitos 🎯
@@ -118,7 +118,6 @@ Segue uma lista com as tecnologias utilizadas
 - Após isso, você deverá criar um banco de dados na sua máquina. O nome do seu Usuário, Senha e nome do Banco de Dados que você acabou de criar deverão ser informados na variável DATABASE_URL respectivamente no lugar de 'USUARIO', 'SENHA' e 'NOME_DO_BANCO_DE_DADOS',
 
 - Substitua na variável DATABASE_URL as parte escrita 'USUARIO', 'SENHA' e 'NOME_DO_BANCO_DE_DADOS' pelas suas próprias credencias após ter configurado o PostgreSQL
-  
 - Obs: Esse passo de criação do banco de dados é apenas uma precaução. Pois já fiz outros projetos com o Prisma ORM e, dependendo da etapa de configuração do PostgreSQL, pode aparecer um erro na hora de executar a próxima instrução
 
 - na mesma pasta, vá no terminal e rode o comando:
